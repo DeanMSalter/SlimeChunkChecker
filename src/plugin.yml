@@ -1,0 +1,19 @@
+name: SlimeChunkChecker # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: Deano3663
+main: McEssence.SlimeChunkChecker.Main
+api-version: 1.18
+commands:
+  SlimeChunkChecker:
+    description: SlimeChunkChecker
+    usage: /SlimeChunkChecker
+    permission: SlimeChunkChecker
+  SlimeChunkChecker reload:
+    description: reload plugin
+    usage: /SlimeChunkChecker reload
+    permission: SlimeChunkChecker.reload
+permissions:
+  SlimeChunkChecker.check:
+    description: allows player to check chunk
+    default: op
+

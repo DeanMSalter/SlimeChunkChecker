@@ -1,0 +1,7 @@
+general:
+  enabled: true
+SlimeCheckItem: SLIME_BALL
+
+messages:
+  SlimeChunkTrueMessage: "§2This is a slime chunk."
+  SlimeChunkFalseMessage: "§cThis is not a slime chunk."
